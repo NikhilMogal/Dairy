@@ -29,7 +29,7 @@ function Carousel() {
   }, [currentIndex]);
 
   return (
-    <div className="relative flex justify-center items-center w-full  md:h-[85vh] bg-gray-200 ml-3">
+    <div className="relative flex justify-center items-center w-full  md:h-[85vh] bg-gray-200">
       <div className="w-full max-w-6xl flex justify-center items-center">
         <img 
           src={images[currentIndex]} 

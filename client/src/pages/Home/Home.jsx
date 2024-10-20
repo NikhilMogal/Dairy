@@ -6,8 +6,9 @@ import Delivery from '../Delivery/Delivery'
 import Info from '../Info/Info'
 
 import VegetableCarousel from '../VegetableCarousel/VegetableCarousel'
-
 import Counter from '../Counter/Counter'
+import Membership from '../MemeberShip/MemberShip'
+import NaturalFresh from '../NaturalFresh/NaturalFresh'
 
 
 function Home() {
@@ -19,9 +20,11 @@ function Home() {
       <NewLaunch />
       
       <VegetableCarousel />
-      <Info />
+      {/* <Info /> */}
       <Delivery/>
+      <Membership/>
       <Counter />
+      <NaturalFresh/>
      
       
 

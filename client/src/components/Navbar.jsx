@@ -29,10 +29,10 @@ function Navbar() {
 
         {/* Middle Links Section */}
         <div className={`middle absolute md:static left-0 w-full md:w-auto bg-gray-100 md:flex gap-4 lg:gap-8 md:items-center transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-16' : 'top-[-400px]'}`}>
-          <Link to="/about" className="block text-gray-700 text-xs md:text-sm font-light hover:text-green-500 transition-colors p-4 md:p-0 text-center">Our Story</Link>
-          <Link to="/products" className="block text-gray-700 text-xs md:text-sm font-light hover:text-green-500 transition-colors p-4 md:p-0 text-center">Products</Link>
-          <Link to="/reviews" className="block text-gray-700 text-xs md:text-sm font-light hover:text-green-500 transition-colors p-4 md:p-0 text-center">Reviews</Link>
-          <Link to="#" className="block text-gray-700 text-xs md:text-sm font-light hover:text-green-500 transition-colors p-4 md:p-0 text-center">Product Quality Report</Link>
+          <Link to="/about" className="block  text-gray-700 text-xs md:text-sm font-semibold hover:text-green-500 transition-colors p-4 md:p-0 text-center">Our Story</Link>
+          <Link to="/products" className="block text-gray-700 text-xs md:text-sm font-semibold hover:text-green-500 transition-colors p-4 md:p-0 text-center">Products</Link>
+          <Link to="/reviews" className="block text-gray-700 text-xs md:text-sm font-semibold hover:text-green-500 transition-colors p-4 md:p-0 text-center">Reviews</Link>
+          <Link to="#" className="block text-gray-700 text-xs md:text-sm font-semibold hover:text-green-500 transition-colors p-4 md:p-0 text-center">Product Quality Report</Link>
         </div>
 
         {/* Right Button Section */}

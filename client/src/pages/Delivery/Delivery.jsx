@@ -40,7 +40,7 @@ const DeliveryProcess = () => {
             </div>
             <p className="text-center text-sm">{step.title}</p>
             {index < deliverySteps.length - 1 && (
-              <div className="hidden md:block absolute top-24 left-1/2 w-1/3 border-t-2 border-dashed border-green-500"></div>
+              <div className="hidden md:block absolute top-24 left-1/2 w-1/3   border-green-500"></div>
             )}
           </div>
         ))}

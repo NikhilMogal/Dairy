@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
+import LOGO from "../assets/img/SaladO.jpg"
 import { FaBars, FaTimes } from 'react-icons/fa'; // Importing icons for menu and close
 
 function Navbar() {
@@ -18,9 +19,9 @@ function Navbar() {
         <div className="left flex items-center ml-5 md:ml-10">
             
           <img
-            src="https://cdnasd.countrydelight.in/cdproductimg/new-website/icon-512x512.png_1704437508084.png"
+            src={LOGO}
             alt="Logo"
-            className="w-10 h-auto md:w-12"
+            className="w-10 h-auto md:w-12 rounded-full"
           />
           <h5 className="ml-3 text-xs md:text-sm font-semibold text-gray-800">Deliver On</h5>
         </div>

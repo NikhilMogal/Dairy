@@ -1,9 +1,20 @@
 import React from 'react';
+import ATTA from "../../assets/category/atta.png"
+import BREAD from "../../assets/category/BREAD.png"
+import ADDSON from "../../assets/category/ADDSON.png"
+import COUNTRYSPECIAL from "../../assets/category/COUNTRYSPECIAL.png"
+import DAL from "../../assets/category/DAL&PULSES.png"
+import EGGS from "../../assets/category/EGGS.png"
+import MILKCOCO from "../../assets/category/MILK&COCONUTWATER.png"
+import MILKPRODUCT from "../../assets/category/MILKPRODUCT.png"
+import DRYFRUITS from "../../assets/category/DRYFRUITS&SEEDS.png"
+import FRESHVEG from "../../assets/category/FRESHVEGETABLE.png"
+import FRESHFRUIT from "../../assets/category/FRESHFRUITS.png"
 
 function Categories() {
   const categories = [
     {
-      image: "	https://cdnasd.countrydelight.in/cdproductimg/new-website/BREAD.png_1722842960673.png",
+      image: BREAD,
       name: "Breads"
     },
     {
@@ -11,41 +22,45 @@ function Categories() {
       name: "Ghee & Oils"
     },
     {
-      image: "https://cdnappcc.countrydelight.in/promotions/atta_1704099152394.png",
+      image: ATTA,
       name: "Atta"
     },
     {
-      image: "	https://cdnasd.countrydelight.in/cdproductimg/new-website/DRYFRUITS%26SEEDS.png_1722842929886.png",
+      image: DRYFRUITS,
       name: "Dry Fruits"
     },
     {
-      image: "https://cdnasd.countrydelight.in/cdproductimg/new-website/DAL%26PULSES.png_1722842916152.png",
+      image: DAL ,
       name: "Pulses"
     },
     {
-      image: "	https://cdnasd.countrydelight.in/cdproductimg/new-website/FRESHVEGETABLE.png_1722842894492.png",
+      image: FRESHVEG,
       name: "Fresh Vegetables"
     },
     
     {
-      image: "	https://cdnasd.countrydelight.in/cdproductimg/new-website/EGGS.png_1722842846103.png",
+      image: EGGS,
       name: "Eggs"
     },
     {
-      image: "https://cdnasd.countrydelight.in/cdproductimg/new-website/ADDSON.png_1722842834303.png",
+      image: ADDSON,
       name: "Add-On"
     },
     {
-      image: "	https://cdnasd.countrydelight.in/cdproductimg/new-website/MILKPRODUCT.png_1722842949438.png",
+      image: MILKPRODUCT,
       name: "Milk Products"
     },
     {
-      image: "	https://cdnasd.countrydelight.in/cdproductimg/new-website/COUNTRYSPECIAL.png_1722842881863.png",
+      image: COUNTRYSPECIAL,
       name: "COUNTRY SPECIAL"
     },
     {
-      image: "https://cdnasd.countrydelight.in/cdproductimg/new-website/MILK%26COCONUTWATER.png_1722842816905.png",
+      image: MILKCOCO,
       name: "Milk And Cocount Water"
+    },
+    {
+      image: FRESHFRUIT,
+      name: "Fresh Fruits"
     }
   ];
 

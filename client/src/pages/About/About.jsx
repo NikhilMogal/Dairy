@@ -1,4 +1,5 @@
 import React from 'react';
+import CAREER from "../../assets/category/career.jpeg"
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
         <section className="md:w-1/2">
           <h2 className="text-2xl font-bold mb-4">Career</h2>
           <div className="bg-white rounded-lg shadow-lg p-6">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_NPR14OPGaTPwKmg6NV1NU3pMl84ikbnK7g&s" alt="Career illustration" className="w-full h-64 mb-4" />
+            <img src={CAREER} alt="Career illustration" className="w-full h-64 mb-4" />
             <h3 className="text-2xl font-bold mb-2">Become a <span className="text-gray-500">CountryDelight</span> superhero</h3>
             <p className="text-gray-600 mb-4">We are hiring all across disciplines.</p>
             <p className="text-gray-600">Contact us at: info@countrydelight.in</p>
